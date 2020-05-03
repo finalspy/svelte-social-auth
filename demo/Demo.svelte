@@ -30,7 +30,7 @@
 						<nav>
 							<ul>
 								<li><a href="#google-auth" on:click={() => { navigate('google-auth') }} class:current={page === 'google-auth'}>Google Auth</a></li>
-								<li><a href="#google-auth" on:click={() => { navigate('facebook-auth') }} class:current={page === 'google-auth'}>Facebook Auth</a></li>
+								<li><a href="#facebook-auth" on:click={() => { navigate('facebook-auth') }} class:current={page === 'facebook-auth'}>Facebook Auth</a></li>
 							</ul>					
 						</nav>
 					</div>
